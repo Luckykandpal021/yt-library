@@ -1,16 +1,29 @@
-# ytlibrary
+Welcome to YT Library, 
 
-A new Flutter project.
+A Powerful Flutter app designed for students and learners. 
+This app leverages YouTube videos to generate transcriptions and screenshots, providing an efficient way for users to access study materials.
 
-## Getting Started
+Key Features:
 
-This project is a starting point for a Flutter application.
+1. YouTube Video Transcription: Extracts transcriptions from YouTube videos using provided video links.
+2. Screenshot Generation: Automatically captures and saves screenshots for every frame of a YouTube video.
+3. Download Transcriptions: Users can download transcriptions of YouTube videos for offline access.
+4. Download Screenshots: Users can save screenshots of specific YouTube videos for reference.
+5. Dark Mode Support: App seamlessly switches between light and dark modes for comfortable viewing.
+6. Search Functionality: Easily search for YouTube videos within the app's interface.
+7. Detailed Video View: After selecting a video, users can access its transcription and associated screenshots.
 
-A few resources to get you started if this is your first Flutter project:
+Technologies Used:
+Flutter: Frontend development framework for building cross-platform mobile apps.
+Django: Backend framework used for handling server-side logic and APIs.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+How It Works:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Frontend (Flutter):
+Provides an intuitive user interface for searching and accessing study materials.
+Implements dark mode support for personalized viewing preferences.
+
+Backend (Django):
+Handles video processing tasks such as transcription extraction and screenshot generation.
+Manages data retrieval and storage for user-accessible study materials.
+Mange and Handle Authentication and User Related Data using MySql
